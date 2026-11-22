@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Italic Barbershop</title>
+
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+    <h2 class="logo">ITALIC<span>.</span></h2>
+
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+
+    <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p id="greeting"></p>
+            <p id="clock"></p>
+            <h1>
+                LOOK GOOD. <br>
+                FEEL <span>CONFIDENT.</span>
+            </h1>
+
+            <p>
+                Tampil lebih percaya diri dengan potongan
+                rambut terbaik dari barber profesional kami.
+            </p>
+
+            <a href="#services" class="btn">
+                OUR SERVICES
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+
+        <h2>ABOUT US</h2>
+
+        <p>
+            Italic Barbershop adalah tempat pangkas rambut
+            modern yang memberikan pelayanan terbaik.
+            Kami menghadirkan pengalaman potong rambut
+            yang nyaman, profesional, dan berkualitas.
+        </p>
+
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+
+        <h2>OUR SERVICES</h2>
+
+        <div class="services-container">
+
+            <div class="services-card">
+                <h3>Classic Haircut</h3>
+                <p>Potongan rambut klasik dan rapi.</p>
+                <h4>Rp35.000</h4>
+            </div>
+
+            <div class="services-card">
+                <h3>Modern Fade</h3>
+                <p>Potongan fade modern dan stylish.</p>
+                <h4>Rp45.000</h4>
+            </div>
+
+            <div class="services-card">
+                <h3>Hair Styling</h3>
+                <p>Penataan rambut agar lebih menarik.</p>
+                <h4>Rp25.000</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- AUDIO SECTION -->
+    <section class="audio" id="audio">
+
+        <h2>Audio Barbershop</h2>
+
+        <p>
+            Nikmati suasana Italic Barbershop dengan musik pilihan kami.
+        </p>
+
+        <audio controls>
+            <source src="musik1.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+
+    <h2>VISIT OUR BARBERSHOP</h2>
+
+    <p>Ingin tampil keren? Booking sekarang!</p>
+
+    <form id="booking-form">
+
+        <input
+            type="text"
+            id="nama"
+            placeholder="Masukkan nama Anda"
+            required
+        >
+
+        <select id="layanan" required>
+            <option value="">Pilih Layanan</option>
+            <option value="Classic Haircut - Rp35.000">
+                Classic Haircut - Rp35.000
+            </option>
+            <option value="Modern Fade - Rp45.000">
+                Modern Fade - Rp45.000
+            </option>
+            <option value="Hair Styling - Rp25.000">
+                Hair Styling - Rp25.000
+            </option>
+        </select>
+
+        <button type="submit" class="btn">
+            BOOKING NOW
+        </button>
+
+    </form>
+
+    <p id="pesan"></p>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Italic Barbershop,
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <button id="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
